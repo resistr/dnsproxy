@@ -1,0 +1,11 @@
+{
+  "name": "dnsservices",
+  "version": "1.0.0",
+  "description": "A set of tools to proxy DNS traffic over HTTPS via NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "resistr",
+  "license": "CC-BY-4.0"
+}

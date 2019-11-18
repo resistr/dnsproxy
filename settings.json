@@ -1,0 +1,20 @@
+{
+    "role": "host",
+    "dnsListenerPort":53,
+    "dnsFallbackTimeout": 350,
+    "dnsNameServers": [
+        {
+            "address": "1.1.1.1",
+            "port": 53
+        },
+        {
+            "address": "1.0.0.1",
+            "port": 53
+        }
+    ],
+    "httpListenerPort": 8053,
+    "httpServer": "dns.bromleyapps.com",
+    "httpPort": "443",
+    "httpContentType": "application/dns-message",
+    "httpMethod":"POST"        
+}
