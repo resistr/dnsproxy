@@ -19,7 +19,7 @@ settings.settings = {
         }
     ],
     httpListenerPort: 8053,
-    httpServer: 'dns.bromleyapps.com',
+    httpServer: 'dns.example.com',
     httpPort:  443,
     httpContentType: 'application/dns-message',
     httpMethod: 'POST', 
